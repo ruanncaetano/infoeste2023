@@ -1,0 +1,132 @@
+body{
+    color: white;
+    font-size: 23px;
+    font-family:  'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(42, 38, 38);
+}
+p{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.542);
+    position: fixed;
+    width: 100%;
+    height: 150px ;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    
+}
+header , img{
+    height: 80px;
+
+}
+header ol li{
+    display: inline;
+    margin: 10px;
+    align-items: center;
+}
+header ol li a{
+    color: white;
+    text-decoration: none;
+}
+header ol li a:hover{
+    color: #FFBF00;
+}
+.home{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.home img{  
+    height: 350px;
+}
+.home div b:hover{
+    color: #FFBF00;
+}
+.home div{
+    margin-top: 150px;
+    margin-bottom: 25px;
+}
+.quemsou div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 25px;
+}
+.quemsou div p {
+    line-height: 35px;
+}
+.quemsou div img{
+    height: 450px;
+}
+.formação div{
+    background-color: #0652e93f;
+    padding: 10px;
+}
+.etec{
+    margin-bottom: 15px;
+}
+.etec p,ol{
+    margin-left: 100px;
+    margin-right: 25px;
+}
+.unoeste{
+    margin-bottom: 15px;
+}
+.unoeste p,ol{
+    margin-left: 100px;
+    margin-right: 25px;
+}
+.projetos{
+    background-color: #ffbf009e;
+   display: flex;
+   flex-direction: column;
+   align-content: center;
+   align-items: center;
+   flex-wrap: nowrap;
+    width: 450px;
+    height: 480px;
+    margin: 0 auto;
+    border: 20px rgb(42, 38, 38) solid;
+  padding: 5px;
+ 
+}
+.projeto p{
+    margin-left: 100px;
+    margin-right: 25px;
+}
+.projetos p{
+    margin: 25px;
+}
+.projetos button a{
+    text-decoration: none;
+    color: white;
+}
+.testeproj{
+    columns: 500px 2;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    margin-top: 20px;
+}
+footer ul li a {
+
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.logofim{
+    margin-top: 25px;
+    height: 150px;
+}
